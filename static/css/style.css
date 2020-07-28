@@ -1,0 +1,73 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align:center;
+}
+
+.flex-box-container-1 ,.flex-box-container-2 , .flex-box-rps , .flex-box-pick-color, 
+.flex-blackjack-row-1, .flex-blackjack-row-2,.flex-blackjack-row-3{
+    display:flex;
+    border: 1px solid black;
+    padding : 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://tse2.mm.bing.net/th?id=OIP.VWKbdy5dd6dLhVLwpMsHXwHaEK&pid=Api&P=0&w=303&h=171');
+    color:#FFF;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.flex-blackjack-row-1 div{
+    border:1px solid black;
+    flex:1;
+    padding: 10px;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img
+{
+    width: 25%;;
+    padding:10px;
+}
+
+
+.flex-blackjack-row-2 button{
+    border:1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-box-container-1 div{
+    padding : 10px;
+    display: flex;
+    border : 1px solid black;
+    align-items: center;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+img{
+    width: 150px;
+    height:170px;
+}
+
+.flex-box-container-2 img{
+    box-shadow: 0px 10px 50px rgba(0,70,50,0.5);
+    margin: 10px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(10,100,100,1); 
+}
+
